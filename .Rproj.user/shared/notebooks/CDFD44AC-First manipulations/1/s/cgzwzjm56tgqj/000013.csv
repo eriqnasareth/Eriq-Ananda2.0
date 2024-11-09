@@ -1,0 +1,8 @@
+"0",""
+"0","# this will make sure you have all nedded packages"
+"0","if (!require(""pacman"")) install.packages(""pacman"")"
+"0",""
+"0","suppressWarnings({"
+"0"," pacman::p_load(""tidyverse"", ""readxl"")"
+"0","}) "
+"0",""

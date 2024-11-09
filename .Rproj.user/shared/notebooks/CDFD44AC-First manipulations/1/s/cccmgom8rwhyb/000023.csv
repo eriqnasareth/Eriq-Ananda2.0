@@ -1,0 +1,6 @@
+"0","#load dataset"
+"0","df <- read_excel(""16S - 2024-02-21.xlsx"", 2)"
+"0",""
+"0","#remove the row that's supposed to be the total sum of numeric variables"
+"0","df <- df[-1440, ]"
+"0",""

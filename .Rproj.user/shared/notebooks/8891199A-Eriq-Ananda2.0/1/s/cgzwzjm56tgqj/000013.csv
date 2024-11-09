@@ -1,0 +1,31 @@
+"0",""
+"0","# this will make sure you have all nedded packages"
+"0","if (!require(""pacman"")) install.packages(""pacman"")"
+"0",""
+"0","suppressWarnings({"
+"0"," pacman::p_load(""tidyverse"", ""xlsx"")"
+"0","}) "
+"2","Instalando pacote em ‘C:/Users/Eriq/AppData/Local/R/win-library/4.4’
+(como ‘lib’ não foi especificado)
+"
+"2","tentando a URL 'https://cran.rstudio.com/bin/windows/contrib/4.4/xlsx_0.6.5.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 380360 bytes (371 KB)
+"
+"2","downloaded 371 KB
+
+"
+"1","pacote ‘xlsx’ desempacotado com sucesso e somas MD5 verificadas
+"
+"1","
+"
+"1",""
+"1","Os pacotes binários baixados estão em
+	C:\Users\Eriq\AppData\Local\Temp\RtmpOYfkFp\downloaded_packages"
+"1",""
+"1","
+"
+"2","
+xlsx installed
+"

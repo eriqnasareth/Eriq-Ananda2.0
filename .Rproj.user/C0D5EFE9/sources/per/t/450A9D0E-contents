@@ -1,0 +1,34 @@
+---
+title: "Some initial manipulations"
+author: "Erick Nasareth"
+date: "2024-11-09"
+output: html_document
+---
+
+
+LESGOOOOOOOO
+
+```{r include=FALSE}
+
+# this will make sure you have all nedded packages
+if (!require("pacman")) install.packages("pacman")
+
+suppressWarnings({
+ pacman::p_load("tidyverse", "readxl")
+}) 
+
+```
+
+
+```{r}
+#load dataset
+df <- read_excel("16S - 2024-02-21.xlsx", 2)
+
+#remove the row that's supposed to be the total sum of numeric variables
+df <- df[-1440, ]
+
+```
+
+
+
+
